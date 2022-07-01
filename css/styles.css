@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+    font-weight: 1000px;
+}
+.bio{
+background-color: #5bde6c;
+width: 33.333333%;
+height: 200px;
+margin: 0;
+display: inline-block;
+text-align: center;
+transition-duration: 0.4s;
+}
+.bio:hover{
+    background-color: #53be61;
+}
+.bio p{
+    margin: 0;
+    height: auto;
+    padding-top: 70px;
+    background-color: transparent;
+}
+.photo{
+    width: 33.333333%;
+ height: 200px;
+ display: inline-block;
+position: absolute;
+margin-left: 33.333333%;
+text-align: center;
+transition-duration: 0.6s;
+background-image: url('p1.jpg');
+background-position: center;
+background-size: cover;
+background-color: #cd6868;
+}
+.photo:hover{
+    box-shadow: 0 0 0 300px rgba(0, 0, 0, 0.204) inset ;
+    cursor: not-allowed;
+}
+.photo p{
+    color: rgb(0, 0, 0);
+    padding-top: 70px;
+    margin:0px;
+    height: auto;
+    display: inline-block;
+    position: relative;
+    background-color: transparent;
+}
+.ed{
+    background-color : #5b7cde;
+    width: 33.333333%;
+height:200px;
+margin: 0;
+display: block;
+margin-left: 33.333333%;
+text-align: center;
+align-content: center;
+transition-duration: 0.4s;
+}
+.ed:hover{
+    background-color: #4d68bb;
+}
+.ed p{
+    margin: 0;
+    width: auto;
+    height: auto;
+    padding-top: 60px;
+    background-color: transparent;
+}
+.hobbies{
+    background-color:#de5b7e;
+    width: 33.333333%;
+height: 200px;
+margin: 0;
+display: inline-block;
+text-align: center;
+transition-duration: 0.4s;
+}
+.hobbies:hover{
+    background-color: #bb4d6a;
+}
+p.hobbies{
+    margin: 0;
+    height: auto;
+    padding-top: 90px;
+    background-color: transparent;
+}
+.contact{
+    background-color: #decf5b;
+    width: 33.333333%;
+height:200px;
+display: inline-block;
+position: absolute;
+margin-left: 33.333333%;
+text-align: center;
+transition-duration: 0.4s;
+}
+.contact:hover{
+    background-color: #bcb058;
+}
+p.contact{
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    height: auto;
+    padding-top: 80px;
+    background-color: transparent;
+}
+.joke{
+    color: #cd6868;
+}

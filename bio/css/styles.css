@@ -1,0 +1,52 @@
+body{
+  font-size: 1em;
+  margin: 0;
+}
+div.title{
+  padding-top: 100px;
+  background-color: #f6f6f4;
+  font-family: 'Amatic SC', cursive;
+  width: 100%;
+  height: 400px;
+  font-size: 2.5rem;
+}
+h1{
+  font-size: 8rem;
+  margin: 0;
+  padding-left: 15%;
+  font-family: 'Titan One', cursive;
+}
+h2{
+  font-size:1cm;
+}
+p.sub{
+  margin: 4px 0 0 0;
+  display: inline-block;
+  padding-left: 15%;
+  color: #b19dbd;
+}
+.gif{
+  display: inline-block;
+  position: absolute;
+  right: 15%;
+  top: 56px;
+}
+p.about{
+  text-align: center;
+  font-size: 2.5rem;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-right: 150pz;
+  margin-bottom: 20px;
+  font-family: 'Amatic SC', cursive;
+  color: #4d3d56;
+}
+.dan{
+  color: #b19dbd;
+}
+.social{
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
